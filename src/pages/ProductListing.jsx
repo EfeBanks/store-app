@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { useProductContext } from '../context/ProductContext';
+import { deleteProduct as deleteProductAPI, } from '../api/productAPI';
 import ProductCard from '../components/ProductCard';
 import AddEditProductForm from '../components/AddEditProductForm';
 import ProductDetailsModal from '../components/ProductDetailsModal';
 
 const ProductListing = () => {
-  const { products, addProduct, updateProduct} = useProductContext();
+  const { products, addProduct, updateProduct, updateProducts} = useProductContext();
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -35,6 +36,17 @@ const handleAddProduct = () => {
   const handleFormCancel = () => {
     setIsFormOpen(false); // Close form
   };
+
+  // Handle product deletion
+const handleDeleteProduct = async (productId) => {
+  try {
+    await deleteProductAPI(productId); // Call API to delete the product
+    updateProducts(products.filter((product) => product.id !== productId)); // Remove from state
+  } catch (error) {
+    console.error('Error deleting product:', error);
+  }
+};
+
 
 
 
@@ -78,6 +90,7 @@ const handleAddProduct = () => {
             setIsModalOpen(true); // Open the modal
           }}
           onEditProduct={handleEditProduct}
+          onDeleteProduct={handleDeleteProduct}
           
           />
         ))}

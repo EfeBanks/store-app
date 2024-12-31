@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProductCard = ({ product, onViewDetails, onEditProduct  }) => {
+const ProductCard = ({ product, onViewDetails, onEditProduct, onDeleteProduct  }) => {
   return (
     <div className="border rounded-md shadow-md p-4">
       <img
@@ -32,6 +32,13 @@ const ProductCard = ({ product, onViewDetails, onEditProduct  }) => {
             className="px-4 py-2 border border-teal-500 bg-white text-teal-500 rounded-lg hover:border-teal-600 hover:text-teal-600"
           >
             Edit
+          </button>
+
+          <button
+            onClick={() => onDeleteProduct(product.id)} // Calling delete function
+            className="m-2 px-4 py-2 border border-red-500 bg-red-500 text-white rounded-lg hover:bg-red-600"
+          >
+            Delete
           </button>
 
           
