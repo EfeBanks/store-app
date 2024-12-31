@@ -1,8 +1,8 @@
-# Techstack
+## Techstack
 
 This project was built with ReactJS and TailwindCSS for styling.
 
-# Instructions to run the project locally
+## Instructions to run the project locally
 
 Run 'npm install' on your terminal to install all the dependencies and resources.
 
@@ -17,13 +17,10 @@ npm start
 This runs on your browser on port 3000 
 Or type: http://localhost:3000 to view it on your browser.
 
-
-# To build
+To build
 Run: npm run build
-
-To build the app for production to the 'build' folder.
+This builds the app for production to the 'build' folder.
 It correctly bundles React in production mode and optimizes the build for the best performance ready to be deployed.
-
 
 ## My Thought Process
 Firstly, I carefully read and studied the task given to understand the project requirement.
