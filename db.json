@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "name": "Daily Chair",
+      "image": "dailyChair.jpg",
+      "price": 499,
+      "description": "Daily Chair is very versatile and relaxing comes in black, blue and red colors.",
+      "status": "In stock",
+      "id": 0
+    },
+    {
+      "name": "Ergonomic Chair",
+      "description": "Ergonomic chair is very comfortable and versatile. A must for every workspace whether at home or in the office.",
+      "price": "550",
+      "status": "In stock",
+      "image": "ergonomic2.jpg",
+      "id": 1
+    },
+    {
+      "name": "Ergonomic Chair Pro",
+      "image": "ergonomic.jpg",
+      "price": 650,
+      "description": "Ergonomic chair pro is also very comfortable and versatile. Comes in various colors. A must for every workspace.",
+      "status": "In stock",
+      "id": 2
+    },
+    {
+      "name": "Office Desk",
+      "image": "desk.jpg",
+      "price": 850,
+      "description": "For class and durability, go for Office desk. About 7 years warranty.",
+      "status": "Out of stock",
+      "id": 3
+    },
+    {
+      "name": "Softside Chair",
+      "image": "softSideChair.jpg",
+      "price": 500,
+      "description": "For comfort and for long sitting position, go for our durable Soft side chair.",
+      "status": "Out of stock",
+      "id": 4
+    },
+    {
+      "name": "Conference Desk",
+      "image": "conference.png",
+      "price": 999,
+      "description": "Conference desk is perfect for your board meetings as well as general meetings. It's long lasting.",
+      "status": "In stock",
+      "id": 5
+    },
+    {
+      "name": "Lounge Chair",
+      "image": "lounge.jpg",
+      "price": 799,
+      "description": "Go for our exquisite lounge chairs. Very stylish and long lasting.",
+      "status": "Out of stock",
+      "id": 6
+    },
+    {
+      "name": "Living Room Sofa",
+      "description": "Get value for your money. Go for our Living room sofa. Very comfortable and durable.",
+      "price": 1670,
+      "status": "In stock",
+      "image": "sofa1.jpg",
+      "id": 7
+    },
+    {
+      "name": "King Size Chair",
+      "description": "Style and Class all-in-one with our King size chair.",
+      "price": 680,
+      "status": "In stock",
+      "image": "kingChair.jpg",
+      "id": 8
+    },
+    {
+      "name": "Resting Chair and Desk",
+      "description": "This combo is a must for every home or office resting place. Enjoy a taste of luxury and comfort with this combo.",
+      "price": 1999,
+      "status": "In stock",
+      "image": "combo2.jpg",
+      "id": 9
+    },
+    {
+      "name": "Resting Sofa",
+      "description": "Our sofas are one of the best in town. Have a taste of luxury and comfort with our Resting Sofa.",
+      "price": 1250,
+      "status": "Out of stock",
+      "image": "sofa2.jpg",
+      "id": 10
+    }
+  ]
+}
